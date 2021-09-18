@@ -1,0 +1,2 @@
+from itertools import groupby
+print(*[(len(list(ct)), int(k)) for k, ct in groupby(input())])
